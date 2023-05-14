@@ -1,0 +1,137 @@
+@media screen and (max-width:480px) {
+
+    
+    
+    .pcVer{
+        display: none;
+    }
+    .phoneVer{
+        display: block;
+    }
+    body{
+        min-width: 0;
+    }
+
+
+    /*-------------------------------------------*/
+
+    header{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-left img{
+        margin-left: 0;
+    }
+    .header-center h3{
+        font-size: 20px;
+        width: 280px;
+        margin: auto;
+        padding-left: 0;
+    }
+    .header-right{
+        display: block;
+        float: right;
+        width: 100px;
+    }
+    /*-------------------------------------------*/
+    .menu-wrapper{
+        background-color: rgba(0, 0, 0, 0.67);
+    }
+    .menu-inner{
+        display: none;
+    }
+
+    .menu-inner li{
+        text-align: center;
+        border-top: 1px solid white;
+        padding: 20px 0;
+        width: 100%;
+        margin: auto;
+    }
+    .menu-wrapper a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    /*--------------------------------------------------*/
+    
+
+    .news-inner{
+        width: 100%;
+        background-image: url(https://github.com/yuuki106/20220618azuki_insta/blob/main/back-white.jpeg?raw=true);
+        background-size: 800px;
+        padding-top: 80px;
+    }
+    .news-inner h1{
+        width: 95%;
+        margin: 50px auto 50px auto;
+        line-height: 35px;
+        font-size:30px;
+        background: linear-gradient(transparent 0%, transparent 0%, hsla(0, 0%, 100%, 0.082) 80%, #00ff1a 100%);
+    }
+
+    .news-text p{
+        width: 90%;
+        margin: auto;
+        font-size: 15px;
+        text-align: left;
+    }
+    span{
+        font-size: 20px;
+    }
+    .news-text h2{
+        font-size: 20px;
+    }
+    /*--------------------------------------------------*/
+
+    .phone-menu{
+        border: 2px solid black;
+    }
+
+    .a-menu{
+        display: flex;
+        
+    }
+    .a-menu a{
+        height: 75px;
+        width: 33.33%;
+        border: 1px solid black;
+    }
+    .b-menu {
+        display: flex;
+    }
+    .b-menu a{
+        height: 75px;
+        width: 33.33%;
+        border: 1px solid black;
+    }
+    .top-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/top_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .pro-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/profile_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .sch-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/schedule_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .his-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/history_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .gal-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/gallery_icon.jpg?raw=true);
+        background-size: contain;
+    }
+    .goo-menu{
+        background-image: url(https://github.com/yuuki106/azuki_schedule/blob/main/Goods_icon.jpg?raw=true);
+        background-size: contain;
+    }
+}
